@@ -26,7 +26,7 @@ public class HW10Problem{
 			finalActivityCosts = getActivitiesCost();
 			totalAllCosts = totalAllCosts + (totalRoomCosts + mealCosts + finalActivityCosts);
 		}//end of for loop
-		System.out.println(totalAllCosts);
+		System.out.println("The total costs come out to: " + totalAllCosts);
 	}//end of main method
 
 	public static double calculateRoomCost(int nights){
@@ -102,7 +102,7 @@ public class HW10Problem{
 						break;
 					case 5: activitySum += 0;
 						break;
-					case 6: System.out.println(activitySum);
+					case 6: System.out.println("Your activity total is " + activitySum);
 					default: System.out.println("Sorry but you have entered an invalid number! Please try again!");
 				}//end of switch
 				activityChoice = input.nextInt();
