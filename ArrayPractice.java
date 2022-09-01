@@ -1,3 +1,5 @@
+//second homwork assingment of my data structures class, would like to know of any improvements I could make to this code as for some reason
+//I feel like I overcomplicated it
 package apps;
 public class ArrayPractice {
     static void printArray(int[] nums) {
